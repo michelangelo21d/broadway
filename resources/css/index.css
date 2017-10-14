@@ -1,19 +1,40 @@
 * {
   font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.toppane {
+  font-size: 18px
+  color: skyblue;
+    background-image: url("../images/the-flatiron-building.png");
 }
 
 
 h1 {
-  color: SeaGreen;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px
+}
+
+#nyc {
+  background-image: url("../images/the-flatiron-building.png");  
 }
 
 
-p, 
-li {
-  font-size: 18px;
-}
-
-
-a {
-  text-decoration: none;
+.footer nav {
+    background-color: dimgray;
+    text-align: left;
 }
