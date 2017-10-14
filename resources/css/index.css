@@ -3,16 +3,20 @@
   text-align: center;
 }
 
+nav a {
+  color: white;
+}
+
 .toppane {
   font-size: 18px
   color: skyblue;
-    background-image: url("../images/the-flatiron-building.png");
+  background-image: url("../images/the-flatiron-building.png");
 }
-
 
 h1 {
   font-size: 70px;
   font-weight: bold;
+  color: white;
 }
 
 h2 {
@@ -30,11 +34,23 @@ p {
 }
 
 #nyc {
-  background-image: url("../images/the-flatiron-building.png");  
+  background-image: url("../images/the-flatiron-building.png");
+  color: white;
+  font-weight: bold;
 }
-
 
 .footer nav {
     background-color: dimgray;
-    text-align: left;
+
+}
+
+.footer p {
+  font-size: 11px;
+  color: white;
+  text-align: left;
+}
+
+.footer p a {
+  font-size: 18px;
+  color: white;
 }
